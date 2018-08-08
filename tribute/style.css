@@ -1,0 +1,33 @@
+
+body{
+    background-image: url(bg-image.jpg);
+    
+}
+#main{
+    margin: 0 auto;
+    width: 80%;
+    background: white;
+    opacity: .8;
+    border-radius: 20px;
+}
+
+#title{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+blockquote{
+    text-align: center;
+}
+#img-div{
+    margin: auto;
+ }
+img{
+    
+    max-width: 100%;
+    display: block;
+    height: auto;
+      
+    border-radius: 50%;
+}
