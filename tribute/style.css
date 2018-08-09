@@ -1,14 +1,17 @@
 
 body{
     background-image: url(bg-image.jpg);
-    
+
 }
 #main{
     margin: 0 auto;
     width: 80%;
-    background: white;
-    opacity: .8;
+    background: white;    
     border-radius: 20px;
+}
+li{
+    margin-bottom: 10px;
+
 }
 
 #title{
@@ -21,13 +24,10 @@ blockquote{
     text-align: center;
 }
 #img-div{
-    margin: auto;
+    text-align: center;
  }
-img{
-    
-    max-width: 100%;
-    display: block;
-    height: auto;
-      
+ img{
+    max-width: 100%; 
+    height: auto;      
     border-radius: 50%;
 }
