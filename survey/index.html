@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,13 +14,84 @@
         <form action="" id="survey-form">
                 <div class="row">
                     <div class="label">
-                        <label for="name" id="name">Name:</label>
+                        <label for="name-label" id="name">Name:</label>
                     </div>
                     <div class="input-type">
-                        <input type="text" id="name" placeholder="NAME" required>
+                        <input type="text" id="name-label" placeholder="Enter name here" class="text-field" required>
                     </div>
                       
-                </div>   
+                </div>
+                <div class="row">
+                    <div class="label">
+                        <label for="email-label" id="email">Email:</label>
+                    </div>
+                    <div class="input-type">
+                        <input type="email" id="email-label" placeholder="Enter email here" class="text-field" required>
+                    </div>
+                      
+                </div> 
+                <div class="row">
+                    <div class="label">
+                        <label for="number-label" id="age">Age:</label>
+                    </div>
+                    <div class="input-type">
+                        <input type="number" id="number-label" min="1" max="100" placeholder="Enter age here" class="text-field" required>
+                    </div>
+                      
+                </div> 
+                <div class="row">
+                    <div class="label">
+                        <label for="number-label" id="age">How likely would you be to recommend this company:</label>
+                    </div>
+                    <div class="input-type">
+                        <select name="" id="dropdown">
+                            <option disable value>Select an Option</option>
+                            <option value="1">Very Likely</option>
+                            <option value="2">Likely</option>
+                            <option value="3">Not Likely</option>
+                        </select>
+                    </div>
+                      
+                </div>
+                <div class="row">
+                        <div class="label">
+                            <label for="number-label" id="age">How satisfied are you with our company:</label>
+                        </div>
+                        <div class="input-type">
+                            <input type="radio" name="satisfied" value="1" >Very Likely<br>
+                            <input type="radio" name="satisfied" value="2" >Likely<br>
+                            <input type="radio" name="satisfied" value="3" >Not Likely<br>
+                        </div>
+                          
+                </div>
+                <div class="row">
+                        <div class="label">
+                            <label for="number-label" id="age">How satisfied are you with our company:</label>
+                        </div>
+                        <div class="input-type">
+                            <input type="checkbox" name="describe1" value="1" >Reliable<br>
+                            <input type="checkbox" name="describe2" value="2" >High Quality<br>
+                            <input type="checkbox" name="describe3" value="3" >Useful<br>
+                            <input type="checkbox" name="describe4" value="4" >Unique<br>
+                            <input type="checkbox" name="describe5" value="5" >Good Value <br>
+                            <input type="checkbox" name="describe6" value="6" >Not Practical<br>
+                            <input type="checkbox" name="describe7" value="7" >Poor Quality<br>
+                            <input type="checkbox" name="describe8" value="8" >Unreliable<br>
+                            <input type="checkbox" name="describe9" value="9" >Useful<br>
+                        </div>
+                          
+                </div> 
+                <div class="row">
+                        <div class="label">
+                            <label for="comments" id="comments-label">Any comments or suggestions?:</label>
+                        </div>
+                        <div class="input-type">
+                            <textarea name="comment" id="comments" cols="50" rows="10" placeholder="Enter your commnets here!"></textarea>
+                            
+                        </div>
+                          
+                </div>
+                <button id="submit" type="submit">Submit</button>                           
             
 
         </form>

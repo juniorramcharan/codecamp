@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center; 
+    background-color: dimgrey;
+}
+#form-page{
+    margin: 0 auto;
+    width: 80%;
+    background-color: whitesmoke;
+}
+.label{
+    text-align: right;
+    display:inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.input-type{
+    display:inline-block;
+    text-align: left;
+    margin-left: 20px;
+    width: 40%;
+}
+.text-field{
+    width: 300px;
+    margin: 5px;
+    padding: 7px;
+    
+}
+.row{
+    margin:20px;
+}
