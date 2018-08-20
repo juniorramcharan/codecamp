@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-column-gap: 5px;
+    grid-template-areas:
+                    "nav container";
+}
+#main-doc{
+    background-color: brown;
+    grid-area: container;
+    
+}
+#navbar{
+    background-color: chocolate;
+    grid-area: nav;
+    position: fixed;  
+    height: 732px;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+}
