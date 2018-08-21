@@ -41,7 +41,7 @@ body{
   border-bottom: 1px solid grey;
   text-align: center;
 }
-#navbar ul li a{
+.nav-link{
     display: block;
     padding: 10px 16px;
     text-decoration: none;
